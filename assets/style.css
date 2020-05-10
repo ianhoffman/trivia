@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+#instructions {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question .choices {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.question .question-text,
+.question .choice {
+    margin-bottom: 5px;
+}
+
+.question input {
+    margin-right: 10px;
+}
+
+#submit {
+    margin-bottom: 20px;
+}
